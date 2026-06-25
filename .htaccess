@@ -1,0 +1,60 @@
+# Забороняє індексацію директорій
+Options -Indexes
+
+# Увімкнення модуля переписування URL
+RewriteEngine On
+
+# Встановлення базового шляху
+RewriteBase /
+
+# Основна версія сайту - www.dituplays.com
+# Переадресація з версії без www на сторінки з www для уникнення дублювання
+RewriteCond %{HTTP_HOST} ^dituplays\.com [NC]
+RewriteRule ^(.*)$ https://www.dituplays.com/$1 [L,R=301]
+
+# Додавання .html для запитуваних URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]
+
+# Переадресації для змінених URL
+RewriteRule ^vigvam-dityachyj-majdanchyk/?$ https://www.dituplays.com/vigvam-dytiachyi-maidanchyk/ [R=301,L]
+RewriteRule ^product-page/ігровий-комплекс-індивідуальний/?$ https://www.dituplays.com/budynochok-sportyvnyi/ [R=301,L]
+RewriteRule ^igrovyy-sportyvnyy-budynochok/?$ https://www.dituplays.com/budynochok-sportyvnyi/ [R=301,L]
+RewriteRule ^dytiachyi-budynochok-sportyvnyi/?$ https://www.dituplays.com/budynochok-sportyvnyi/ [R=301,L]
+RewriteRule ^kazkovyy-budynochok/?$ https://www.dituplays.com/kazkovyi-budynochok/ [R=301,L]
+RewriteRule ^budynochok-dlia-ditei-kazkovyi/?$ https://www.dituplays.com/kazkovyi-budynochok/ [R=301,L]
+RewriteRule ^product-page/казковий-будиночок/?$ https://www.dituplays.com/kazkovyi-budynochok/ [R=301,L]
+
+# Ніндзя
+RewriteRule ^sportyvno-igrovyy-kompleks-nindzya/?$ https://www.dituplays.com/nindzia-sportyvno-ihrovyi-kompleks/ [R=301,L]
+RewriteRule ^sportyvno-ihrovyi-kompleks-nindzia/?$ https://www.dituplays.com/nindzia-sportyvno-ihrovyi-kompleks/ [R=301,L]
+
+# Павук
+RewriteRule ^dytiachyi-maidanchyk-pavuk/?$ https://www.dituplays.com/pavuk-dytiachyi-maidanchyk/ [R=301,L]
+
+# Машинка
+RewriteRule ^mashynka-dytiachyi-maidanchyk/?$ https://www.dituplays.com/mashynka/ [R=301,L]
+
+# Корабель
+RewriteRule ^korablyk/?$ https://www.dituplays.com/korabel/ [R=301,L]
+
+# Нові переадресації
+RewriteRule ^vigvam-mini/?$ https://www.dituplays.com/vigvam-mini-dytiachyi-maidanchyk/ [R=301,L]
+RewriteRule ^product-page/вігвам-міні/?$ https://www.dituplays.com/vigvam-mini-dytiachyi-maidanchyk/ [R=301,L]
+RewriteRule ^product-page/product-page/вігвам-махі/ [R=301,L]
+RewriteRule ^product-page/вігвам-1/?$ https://www.dituplays.com/vigvam-dytiachyi-maidanchyk/ [R=301,L]
+RewriteRule ^contact/?$ https://www.dituplays.com/komanda-ditu-plays/ [R=301,L]
+RewriteRule ^about/?$ https://www.dituplays.com/komanda-ditu-plays/ [R=301,L]
+
+# Якщо файл не існує, відкривати index.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [L]
+
+# Вимкнення кешування для HTML
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "0"
+</FilesMatch>

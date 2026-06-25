@@ -1,0 +1,194 @@
+[
+  {
+    "id": "vigvam-dytiachyi-maidanchyk",
+    "title": "Вігвам",
+    "image": "/img/catalog/vigvam-dytiachyi-maidanchyk.jpg",
+    "alt": "Дитячий майданчик Вігвам для ігор на відкритому повітрі",
+    "price": {
+      "value": 69800,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "budynochok-sportyvnyi",
+    "title": "Будиночок Спортивний",
+    "image": "/img/catalog/budynochok-sportyvnyi.jpg",
+    "alt": "Спортивний будиночок для дитячого майданчика",
+    "price": {
+      "value": 217700,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "kazkovyi-budynochok",
+    "title": "Будиночок Казковий",
+    "image": "/img/catalog/kazkovyi-budynochok-dlia-ditei.jpg",
+    "alt": "Казковий будиночок для дитячого майданчика",
+    "price": {
+      "value": 110600,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "budynochok-na-derevi",
+    "title": "Будиночок на дереві",
+    "image": "/img/catalog/budynochok-na-derevi.jpg",
+    "alt": "Будиночок на дереві для дитячого майданчика",
+    "price": {
+      "value": 27400,
+      "currency": "USD",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "zatyshnyi-budynochok",
+    "title": "Будиночок Затишний",
+    "image": "/img/catalog/zatyshnyi-budynochok.jpg",
+    "alt": "Будиночок Затишний - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 396900,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "khyzha-pryhod",
+    "title": "Хижа Пригод",
+    "image": "/img/catalog/khyzha-pryhod-ditu-plays.jpg",
+    "alt": "Хижа Пригод - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 628400,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "korabel",
+    "title": "Корабель",
+    "image": "/img/catalog/korabel-ditu-plays.jpg",
+    "alt": "Корабель - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 32000,
+      "currency": "USD",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "shale-dytiachyi-maidanchyk",
+    "title": "Шале",
+    "image": "/img/catalog/shale-ditu-plays.jpg",
+    "alt": "Шале - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 286700,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "budynochok-ihrovyi",
+    "title": "Будиночок Ігровий",
+    "image": "/img/catalog/budynochok-ihrovyi.jpg",
+    "alt": "Будиночок Ігровий - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 179400,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "budynochok-z-dubamy",
+    "title": "Будиночок з дубами",
+    "image": "/img/catalog/budynochok-z-dubamy.jpg",
+    "alt": "Будиночок з дубами - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 237800,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "pavuk-dytiachyi-maidanchyk",
+    "title": "Павук",
+    "image": "/img/catalog/pavuk-dytiachyi-maidanchyk.jpg",
+    "alt": "Дитячий майданчик у вигляді Павука від DiTu plays",
+    "price": {
+      "value": 352800,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "derevne-misto",
+    "title": "Деревне Місто",
+    "image": "/img/catalog/derevne-misto-ditu-plays.jpg",
+    "alt": "Деревне Місто - дитячий комплекс будиночків від DiTu plays",
+    "price": {
+      "value": 496100,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "vigvam-mini-dytiachyi-maidanchyk",
+    "title": "Вігвам міні",
+    "image": "/img/catalog/vigvam-mini-dytiachyi-maidanchyk.jpg",
+    "alt": "Вігвам Міні - дитячий майданчик від DiTu plays",
+    "price": {
+      "value": 52200,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "nindzia-sportyvno-ihrovyi-kompleks",
+    "title": "Ніндзя",
+    "image": "/img/catalog/nindzia-sportyvno-ihrovyi-kompleks.jpg",
+    "alt": "Спортивний дитячий майданчик Ніндзя від DiTu plays",
+    "price": {
+      "value": 133600,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "kubyk-sportyvnyi-dytiachyi-maidanchyk",
+    "title": "Кубик",
+    "image": "/img/catalog/kubyk-sportyvnyi-dytiachyi-maidanchyk.jpg",
+    "alt": "Спортивний дитячий майданчик Кубик від DiTu plays",
+    "price": {
+      "value": 75000,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "mashynka",
+    "title": "Машинка",
+    "image": "/img/catalog/mashynka.jpg",
+    "alt": "",
+    "price": {
+      "value": 84900,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  }
+]
