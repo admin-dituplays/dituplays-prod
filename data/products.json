@@ -1,5 +1,29 @@
 [
   {
+    "id": "dvopoverhovij-budynochok-z-garazhem",
+    "title": "Будиночок з гаражем",
+    "image": "/img/catalog/dvopoverhovij-budynochok-z-garazhem.jpg",
+    "alt": "Дитячий двоповерховий будиночок з гаражем та гамаком",
+    "price": {
+      "value": 14500,
+      "currency": "USD",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
+    "id": "budynochok-z-krytoyu-terasoyu",
+    "title": "Будиночок з критою терасою",
+    "image": "/img/catalog/budynochok-z-krytoyu-terasoyu.jpg",
+    "alt": "Дерев'яний дитячий будиночок з критою терасою",
+    "price": {
+      "value": 350000,
+      "currency": "UAH",
+      "discountedValue": null,
+      "discountBadgeText": null
+    }
+  },
+  {
     "id": "vigvam-dytiachyi-maidanchyk",
     "title": "Вігвам",
     "image": "/img/catalog/vigvam-dytiachyi-maidanchyk.jpg",
